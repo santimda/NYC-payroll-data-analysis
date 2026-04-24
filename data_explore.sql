@@ -1,6 +1,9 @@
 -- Check all data
 SELECT * FROM ny_payroll LIMIT 100;
 
+-- Check total number of entries 
+SELECT COUNT(*) FROM ny_payroll;
+
 -- Explore title_descriptions and work_location_borough for the 
 -- most common agency (POLICE DEPARTMENT)
 SELECT agency_name, work_location_borough, title_description 
