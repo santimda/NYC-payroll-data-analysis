@@ -32,7 +32,7 @@ CREATE TABLE ny_payroll_raw (
 
 -- Read the csv file into the raw table. 
 COPY ny_payroll_raw
-FROM '/home/santiagodp/Documents/ML/NY_salaries/Citywide_Payroll_Data__Fiscal_Year_.csv'
+FROM '/home/santiagodp/Documents/ML/NYC-payroll-data-analysis/Citywide_Payroll_Data__Fiscal_Year_.csv'
 DELIMITER ',' CSV HEADER;
 
 -- Convert the data from the raw table to the final table with appropriate data types,
