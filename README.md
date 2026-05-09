@@ -136,17 +136,22 @@ Target:
 
 ### 4. Evaluation
 
-Model performance evaluated using:
+Model performance was evaluated using:
 
-* Mean Squared Error (MSE)
 * Mean Absolute Error (MAE)
+* Root Mean Squared Error (RMSE)
 * R² score
+* relative error distributions
 
-Additional analysis:
+Additional diagnostics included:
 
-* feature importance ranking
-* residual analysis
-* identification of best and worst predictions
+* feature importance analysis
+* residual analysis across salary ranges
+* subgroup performance by agency and job title
+
+<p align="center">
+  <img src="model_performance.png" width="750">
+</p>
 
 ---
 
@@ -159,6 +164,14 @@ Additional analysis:
   * early growth
   * later plateau (or apparent decline due to composition)
 * **Borough has little influence**
+
+The feature importance analysis from the Random Forest model confirms that
+working hours and job-related categories dominate salary prediction, while
+geographic information contributes comparatively little.
+
+<p align="center">
+  <img src="feature_importance_pie.png" width="500">
+</p>
 
 ---
 
