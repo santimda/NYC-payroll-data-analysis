@@ -170,7 +170,7 @@ working hours and job-related categories dominate salary prediction, while
 geographic information contributes comparatively little.
 
 <p align="center">
-  <img src="figs/feature_importance_pie.png" width="500">
+  <img src="figs/feature_importance_breakdown.png" width="500">
 </p>
 
 ---
