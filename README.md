@@ -150,7 +150,7 @@ Additional diagnostics included:
 * subgroup performance by agency and job title
 
 <p align="center">
-  <img src="fig/model_performance.png" width="750">
+  <img src="figs/model_performance.png" width="750">
 </p>
 
 ---
@@ -170,7 +170,7 @@ working hours and job-related categories dominate salary prediction, while
 geographic information contributes comparatively little.
 
 <p align="center">
-  <img src="fig/feature_importance_pie.png" width="500">
+  <img src="figs/feature_importance_pie.png" width="500">
 </p>
 
 ---
