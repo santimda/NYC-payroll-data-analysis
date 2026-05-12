@@ -14,6 +14,23 @@ The focus is on a **clear, reproducible workflow**, rather than complex modellin
 
 ---
 
+## Interactive Dashboard
+
+An interactive Looker Studio dashboard was created to explore:
+
+* salary evolution across NYC agencies
+* employee counts over time
+* agency-level comparisons
+* year-to-year salary trends
+
+🔗 [Open the Dashboard](https://datastudio.google.com/reporting/7afedc5d-1476-4ea3-8be7-ac8162583fd2)
+
+<p align="center">
+  <img src="figs/dashboard_preview.png" width="850">
+</p>
+
+---
+
 ## Dataset
 
 The dataset contains payroll records with information such as:
@@ -229,6 +246,5 @@ The modelling is intentionally kept simple to highlight:
 * Test if last names have an impact (e.g., latino vs non-latino)
 * Compare multiple models (e.g. Gradient Boosting)
 * Add cross-validation
-* Deploy as a small API or dashboard
 
 ---
